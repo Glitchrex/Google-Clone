@@ -21,7 +21,7 @@ function scrch(){
   else if(q===0)
   location.href="https://en.wikipedia.org/wiki/Julian_Assange";
   else
-  location.href="https://www.google.com/Please search any of this Nelson Mandela","Grassroots","Julian Assange",("Mohandas Karamchand Gandhi","Volunteering")";
+  location.href="https://www.google.com/Search Again With Different Keywords?type&";
   
 }
     
