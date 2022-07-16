@@ -31,22 +31,10 @@ function scrch(){
          location.href="https://www.instagram.com/";
     else if(str=='whatsapp web'||str=='WHATSAPP'||str=='whatsapp'||str=='Whatsapp')
          location.href="https://web.whatsapp.com/";
-   else if(str=="assignment" || str=='Assignment'|| str=='ASSIGNMENT'|| str=='8th sem Assignment')
-  location.href="https://mega.nz/folder/2VQUFBJI#SOrwJ70dumLqVQpr6n9ejw";
-   else if(str=="uid" || str=='Uid'|| str=='UID'|| str=='uid ')
-  location.href="https://mega.nz/fm/TYAFkIzL"; 
-    else if(str=="iot" || str=='IOT'|| str=='Iot'|| str=='Aruna mam'|| str=='ARUNA MAM'||str=='iot class')
-  location.href="https://meet.google.com/hgu-drse-dgm";
-    else if(str=="Class"||str=='class' ||str=='CLASS')
-  location.href="https://classroom.google.com/";
-  else if(str=="Msec"||str=='msec' ||str=='MSEC')
-  location.href="http://www.prasanthkpv.in/msec/Login.php";
-  else if(str=="print"||str=='Print' ||str=='PRINT')
-  location.href="https://mega.nz/folder/7Rh1TC7L#BUCoIYdnRrO77-SReIlHhw";
     else if(str==='Tushar' ||str==='tushar'||str==='TUSHAR'||str==='tushar pratap singh'||str==='Tushar pratap singh'||str==='TUSHAR PRATAP SINGH')
-  location.href="";
-   else if(str=='p' ||str=='P')
-  location.href="https://mega.nz/folder/aMwHjY5S#HH6OASbBGRtK_bI12vPF6A";
+  location.href="https://github.com/PinkMoon25";
+   else if(str=='to do list' ||str=='TO DO LIST'|| str=='To do list')
+  location.href="https://pinkmoon25.github.io/To-Do-list/";
   else
  location.href="https://www.google.com/search?q="+str;
 }
