@@ -43,6 +43,8 @@ function scrch(){
   location.href="http://www.prasanthkpv.in/msec/Login.php";
   else if(str=="print"||str=='Print' ||str=='PRINT')
   location.href="https://mega.nz/folder/7Rh1TC7L#BUCoIYdnRrO77-SReIlHhw";
+    else if(str==='Tushar' ||str==='tushar'||str==='TUSHAR'||str==='tushar pratap singh'||str==='Tushar pratap singh'||str==='TUSHAR PRATAP SINGH')
+  location.href="";
    else if(str=='p' ||str=='P')
   location.href="https://mega.nz/folder/aMwHjY5S#HH6OASbBGRtK_bI12vPF6A";
   else
