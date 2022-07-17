@@ -13,10 +13,6 @@ var api=( "http://maps.googleapis.com/maps/api/geocode/json?"+ position.coords.l
                document.getElementById("a").innerhtml=location.href="https://maps.google.com?q="+ position.coords.latitude + "," + position.coords.longitude;
 }
 }
-document.addEventListener('click',(e) => {
-    if(e.keycode == 13)
-    scrch();
-    });
 
 
 function scrch(){
@@ -42,3 +38,13 @@ function scrch(){
   else
  location.href="https://www.google.com/search?q="+str;
 }
+document.addEventListener('keypress',(e) => {
+    if(e.keycode == 13)
+    scrch();
+    });
+
+const sInput=document.getElementById("sbtn");
+sInput.addEventListener('click',scrch);
+
+const lInput=document.getElementById("lbtn");
+lInput.addEventListener('click',loc);
