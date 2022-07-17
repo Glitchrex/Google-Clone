@@ -14,7 +14,7 @@ var api=( "http://maps.googleapis.com/maps/api/geocode/json?"+ position.coords.l
 }
 }
 document.addEventListener('click',(e) => {
-    if(e.keyCode == 13)
+    if(e.keycode == 13)
     scrch();
     });
 
