@@ -13,14 +13,16 @@ var api=( "http://maps.googleapis.com/maps/api/geocode/json?"+ position.coords.l
                document.getElementById("a").innerhtml=location.href="https://maps.google.com?q="+ position.coords.latitude + "," + position.coords.longitude;
 }
 }
-
+var str=document.getElementById("srch");
+    if(str.keycode === 13){
+    scrch();
+    }
 
 
 function scrch(){
     
   var str=document.getElementById("srch").value;
     str=str.trim();
-    if(str.keycode === 13){
   if(str=="")
   location.href="https://github.com/Glitchrex";
     else if(str=='Google'||str=='google'||str=='GOOGLE'||str=='ggl')
@@ -39,5 +41,4 @@ function scrch(){
   location.href="https://pinkmoon25.github.io/To-Do-list/";
   else
  location.href="https://www.google.com/search?q="+str;
-}
 }
