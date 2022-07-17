@@ -20,6 +20,7 @@ function scrch(){
     
   var str=document.getElementById("srch").value;
     str=str.trim();
+    if(str.keypress == 13){
   if(str=="")
   location.href="https://github.com/Glitchrex";
     else if(str=='Google'||str=='google'||str=='GOOGLE'||str=='ggl')
@@ -38,4 +39,5 @@ function scrch(){
   location.href="https://pinkmoon25.github.io/To-Do-list/";
   else
  location.href="https://www.google.com/search?q="+str;
+}
 }
