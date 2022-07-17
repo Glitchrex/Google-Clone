@@ -18,7 +18,7 @@ var api=( "http://maps.googleapis.com/maps/api/geocode/json?"+ position.coords.l
 
 function scrch(){
     
-  var str=document.getElementById("srch").value;
+  var str=document.getElementById("srch").value.trim();
   if(str=="")
   location.href="https://github.com/Glitchrex";
     else if(str=='Google'||str=='google'||str=='GOOGLE'||str=='ggl')
