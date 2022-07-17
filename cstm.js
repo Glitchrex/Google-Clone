@@ -20,7 +20,7 @@ function scrch(){
     
   var str=document.getElementById("srch").value;
     str=str.trim();
-    if(str.keypress == 13){
+    if(str.keycode == 13){
   if(str=="")
   location.href="https://github.com/Glitchrex";
     else if(str=='Google'||str=='google'||str=='GOOGLE'||str=='ggl')
