@@ -37,11 +37,13 @@ function loc(){
   };
   
   const searchBtn = document.getElementById('search');
+  const locateBtn = document.getElementById('locate');
   
   searchBtn.addEventListener('click', scrch);
-  
+  locateBtn.addEventListener('click', loc);
+
   document.addEventListener('keypress',(e) => {
-  if(e.keyCode === 13) {
+  if(e.key === "Enter") {
   scrch();
   }
   });
