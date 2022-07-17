@@ -1,3 +1,5 @@
+const sInput=document.getElementById("sbtn");
+const lInput=document.getElementById("lbtn");
 
 function loc(){
 if(navigator.geolocation){
@@ -39,12 +41,9 @@ function scrch(){
  location.href="https://www.google.com/search?q="+str;
 }
 document.addEventListener('keypress',(e) => {
-    if(e.keycode == 13)
+    if(e.keyCode === 13)
     scrch();
     });
 
-const sInput=document.getElementById("sbtn");
 sInput.addEventListener('click',scrch);
-
-const lInput=document.getElementById("lbtn");
 lInput.addEventListener('click',loc);
