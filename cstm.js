@@ -41,7 +41,7 @@ function scrch(){
  location.href="https://www.google.com/search?q="+str;
 }
 document.addEventListener('keypress',(e) => {
-    if(e.keyCode === 13)
+    if(e.keycode === 13)
     scrch();
     });
 
