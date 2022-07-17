@@ -39,11 +39,13 @@ function scrch(){
   location.href="https://pinkmoon25.github.io/To-Do-list/";
   else
  location.href="https://www.google.com/search?q="+str;
-}
-document.addEventListener('keypress',(e) => {
-    if(e.keycode === 13)
-    scrch();
-    });
+};
+
 
 sInput.addEventListener('click',scrch);
 lInput.addEventListener('click',loc);
+
+document.addEventListener('keypress', (e) => {
+    if(e.keycode === 13)
+        sInput.click();
+    });
