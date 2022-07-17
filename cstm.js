@@ -13,10 +13,10 @@ var api=( "http://maps.googleapis.com/maps/api/geocode/json?"+ position.coords.l
                document.getElementById("a").innerhtml=location.href="https://maps.google.com?q="+ position.coords.latitude + "," + position.coords.longitude;
 }
 }
-var str=document.getElementById("srch");
-    if(str.key == "Enter"){
+document.addEventListener("click",(e) =>
+    if(e.key == "Enter"){
     scrch();
-    }
+    })
 
 
 function scrch(){
