@@ -54,7 +54,7 @@ function loc(){
 
 function refreshLoop(){
   let git = "https://github.com/PinkMoon25";
- setTimeout((){
+ setTimeout(function(){
             location.reload(true);
             git.reload(true);
 },500);
