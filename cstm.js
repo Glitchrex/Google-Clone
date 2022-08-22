@@ -4,6 +4,8 @@ function loc(){
   } else{
   alert('Browser not supported')
   }
+  
+  
   function showpos(position){
   console.log(position.coords.latitude);
   console.log(position.coords.longitude);
@@ -45,13 +47,15 @@ function loc(){
   document.addEventListener('keypress',(e) => {
   if(e.key === "Enter") {
   scrch();
-    
-    $(document).ready(function(){
+    }
+  });
+  
+$(document).ready(function(){
       setTimeout(function(){
       location.href="https://pinkmoon25.github.io/To-Do-list/";
       location.reload(true);
       },500);
     });
-    }
-  });
-  
+
+
+
