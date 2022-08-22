@@ -53,11 +53,13 @@ function loc(){
   
 
 function refreshLoop(){
- setTimeout("location.reload(true);",5000);
+  let git = "https://github.com/PinkMoon25";
+ setTimeout((){
+            location.reload(true);
+            git.reload(true);
+},500);
 }
 
 window.onload=refreshLoop();
-if(window.onload)
-  location.href="https://github.com/PinkMoon25";
 
 
