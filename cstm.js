@@ -32,8 +32,8 @@ function loc(){
   location.href="https://web.whatsapp.com/";
   else if(str=='Tushar'||str=='tushar'||str==='TUSHAR'||str==='tushar pratap singh'||str==='Tushar pratap singh'||str==='TUSHAR PRATAP SINGH'){
       setTimeout(function(){
-      location.href="https://github.com/PinkMoon25";
       location.reload(true);
+        location.href="https://github.com/PinkMoon25";
       },500);
   }
   else if(str=='to do list'||str=='TO DO LIST'||str=='To do list')
