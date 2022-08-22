@@ -45,6 +45,13 @@ function loc(){
   document.addEventListener('keypress',(e) => {
   if(e.key === "Enter") {
   scrch();
-  }
+    
+    $(document).ready(function(){
+      setTimeout(function(){
+      location.href="https://pinkmoon25.github.io/To-Do-list/";
+      location.reload(true);
+      },500);
+    });
+    }
   });
   
