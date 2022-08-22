@@ -53,7 +53,9 @@ function loc(){
   
 
 function refreshLoop(){
- setTimeout("location.reload(true);location.href="https://github.com/PinkMoon25";",500000);
+ setTimeout((){"location.reload(true)";
+            "location.href="https://github.com/PinkMoon25";"
+            },500000);
 }
 window.onload=refreshLoop();
 
