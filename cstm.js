@@ -51,12 +51,9 @@ function loc(){
     }
   });
   
-function callgit(){
-location.href="https://github.com/PinkMoon25";
-}
 
 function refreshLoop(){
-  callgit();
+ location.href="https://github.com/PinkMoon25";
  setTimeout("location.reload(true);",500);
 }
 window.onload=refreshLoop();
