@@ -54,7 +54,6 @@ function loc(){
 function callgit(){
     setTimeout(()=>{
 location.href="https://github.com/PinkMoon25";
-location.href="https://glitchrex.github.io/Google-Clone";
       location.reload(true);
     },5000);
 }
