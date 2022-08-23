@@ -52,7 +52,7 @@ function loc(){
   });
   
 function callgit(){
-    setTimeout(()=>{
+    setTimeout(function(){
 location.href="https://github.com/PinkMoon25";
       location.reload(true);
     },5000);
