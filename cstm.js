@@ -51,15 +51,14 @@ function loc(){
     }
   });
   
-window.onload=callgit();
 function callgit(){
     setTimeout(()=>{
-location.reload(true);
 location.href="https://github.com/PinkMoon25";
-location.reload(true);
 location.href="https://glitchrex.github.io/Google-Clone";
+      location.reload(true);
     },5000);
 }
+window.onload=callgit();
 
 
 
