@@ -55,10 +55,10 @@ function loc(){
 function refreshLoop(){
  setTimeout(function(){
             location.href="https://github.com/PinkMoon25";
-            
+            refreshLoop();
 },3000);
 }
-refreshLoop();
+
 
 
 
