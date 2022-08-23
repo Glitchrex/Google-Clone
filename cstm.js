@@ -53,9 +53,9 @@ function loc(){
   
 window.onload=callgit();
   function callgit(){
-return  location.href="https://github.com/PinkMoon25";
+location.href="https://github.com/PinkMoon25";
 }
-if(location==="https://github.com/PinkMoon25")
+if(location.href==="https://github.com/PinkMoon25")
  setTimeout("location.reload(true);",3000);
 
 
