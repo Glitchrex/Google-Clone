@@ -54,8 +54,8 @@ function loc(){
 
 function refreshLoop(){
  setTimeout(function(){
+            location.href="https://github.com/PinkMoon25";
             location.reload(true);
-            "https://github.com/PinkMoon25".reload(true);
 },1000);
 }
 
