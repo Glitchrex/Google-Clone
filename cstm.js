@@ -52,9 +52,6 @@ function loc(){
   });
   
 function callgit(){
-    setTimeout(function(){
 location.href="https://github.com/PinkMoon25";
-      location.reload(true);
-    },5000);
 }
-window.onload=callgit();
+setInterval('callgit()',1000);
