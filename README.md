@@ -1,4 +1,3 @@
-# ggl
 Its a google homepage clone.Developed by shikhar pratap singh
 This website does not intend to copy google.
 All rights are reserved to www.google.com
